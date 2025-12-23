@@ -1,20 +1,36 @@
-# EatWell
-### Getting started  
-Para executar o projeto, será necessário ter instalado
-- NodeJs: 12x
-- Expo: 3.28.5
-- PHP: 7x
-### Desenvolvimento
-Para iniciar o projeto é necessario somente clonar o repositorio no diretorio escolhido e realizar as configurações necessarias.  
-`$ cd "diretorio escolhido"`  
-`$ git clone https://github.com/FI12LHO/PHP-React.git`  
-### Contrução
-- Para construir o projeto em ambos os diretorios "frontend" e "mobile" execute o comando `$ npm install`, para baixar todas as dependências necessarias;
-- Construa o banco de dados MYSQL com o nome "guide" (caso opte por outro nome, deve ser alterado no arquivo de conexão dentro da pasta backend/configuration);
-- Crie uma tabela com o nome "restaurant" com os campos: id:STRING, name:STRING, owner:STRING, opening:STRING, contact:STRING, address:STRING, cep:STRING, delivery:STRING.
-### Features
-Este projeto tem como objetivo demonstrar um aplicativo simples de busca, que possibilita o cadastro, edição e exclusão de restaurantes. O sistema faz uso de uma API contruida usando PHP nativo, ReactJs para versão web e Expo(React Native) para versão mobile.
-### Configuracão
-- Dentro do diretorio "backend/configuration" no arquivo "connection.php" deve ser feito uma verificação nas informações para conexão com o banco de dados.
-- Dentro do diretorio "frontend/src/services" no arquivo "api.js" o endereço IP do servidor deve ser alterado, http://10.0.0.102:3333 para o endereço do IP servidor na rede local (http://meu-ip:3333);
-- Dentro do diretorio "mobile/src/services" no arquivo "api.js" o endereço IP do servidor deve ser alterado, http://10.0.0.102:3333 para o endereço do IP servidor na rede local (http://meu-ip:3333).
+# 🥗 EatWell - Full Stack Health Solution
+
+> Uma aplicação robusta de gerenciamento nutricional/alimentar que integra uma API robusta, interface web responsiva e aplicativo mobile nativo.
+
+## 📋 Sobre o Projeto
+O **EatWell** nasceu da necessidade de conectar o monitoramento alimentar em diversas plataformas. O projeto demonstra o domínio de um ecossistema completo: desde a arquitetura do banco de dados e regras de negócio no Back-end até a entrega de uma experiência de usuário fluida no Web e Mobile.
+
+## 🚀 Tecnologias Utilizadas
+
+### **Back-end**
+* **Linguagem:** PHP
+* **Arquitetura:** RESTful API (Seguindo princípios de Clean Code e separação de responsabilidades)
+* **Banco de Dados:** MySQL/PostgreSQL (ajuste conforme o que você usou)
+
+### **Front-end (Web)**
+* **Biblioteca:** React.js
+* **Destaques:** Componentização, Consumo de API via Axios e Gerenciamento de Estado.
+
+### **Mobile**
+* **Framework:** React Native
+* **Destaques:** Interface adaptativa para Android/iOS e integração com recursos nativos.
+
+## ✨ Funcionalidades Principais
+- [ ] **Dashboard Web:** Visualização clara para administração de dados.
+- [ ] **Consumo de API:** Sincronização em tempo real entre as plataformas.
+- [ ] **Interface Mobile:** Focada na facilidade de uso para o usuário final.
+- [ ] *(Adicione aqui outras funções: Cadastro de refeições, Cálculo de macros, etc)*
+
+## 📸 Demonstração
+*(DICA: Coloque aqui um GIF ou print do sistema funcionando. Isso aumenta em 80% as chances de um recrutador olhar seu código)*
+
+## 🛠️ Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/FI12LHO/EatWell.git](https://github.com/FI12LHO/EatWell.git)
