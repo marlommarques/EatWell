@@ -24,10 +24,6 @@ O **EatWell** nasceu da necessidade de conectar o monitoramento alimentar em div
 - [ ] **Dashboard Web:** Visualização clara para administração de dados.
 - [ ] **Consumo de API:** Sincronização em tempo real entre as plataformas.
 - [ ] **Interface Mobile:** Focada na facilidade de uso para o usuário final.
-- [ ] *(Adicione aqui outras funções: Cadastro de refeições, Cálculo de macros, etc)*
-
-## 📸 Demonstração
-*(DICA: Coloque aqui um GIF ou print do sistema funcionando. Isso aumenta em 80% as chances de um recrutador olhar seu código)*
 
 ## 🛠️ Como Executar o Projeto
 
