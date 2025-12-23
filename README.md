@@ -33,4 +33,4 @@ O **EatWell** nasceu da necessidade de conectar o monitoramento alimentar em div
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/FI12LHO/EatWell.git](https://github.com/FI12LHO/EatWell.git)
+   git clone [https://github.com/marlommarques/EatWell.git](https://github.com/marlommarques/EatWell.git)
