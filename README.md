@@ -10,7 +10,7 @@ O **EatWell** nasceu da necessidade de conectar o monitoramento alimentar em div
 ### **Back-end**
 * **Linguagem:** PHP
 * **Arquitetura:** RESTful API (Seguindo princípios de Clean Code e separação de responsabilidades)
-* **Banco de Dados:** MySQL/PostgreSQL (ajuste conforme o que você usou)
+* **Banco de Dados:** MySQL
 
 ### **Front-end (Web)**
 * **Biblioteca:** React.js
